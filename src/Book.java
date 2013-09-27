@@ -1,3 +1,5 @@
+import java.io.Serializable;
+
 /**
  * This is a book object.
  * Note: One book can have multiple authors. 
@@ -5,7 +7,7 @@
  * @author Kebre
  *
  */
-public class Book  implements java.lang.Comparable<T>{
+public class Book implements Serializable{
 	
 	private String isbn;
 	private String title;
@@ -15,7 +17,7 @@ public class Book  implements java.lang.Comparable<T>{
 	public void addAuthor(){
 		
 	}
-	public array getAuthors(){
+	public void getAuthors(){ 													//Should be public array getAuthors
 		
 	}
 
